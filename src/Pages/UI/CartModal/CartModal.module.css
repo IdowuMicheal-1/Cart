@@ -1,0 +1,102 @@
+.amountInfo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceAmount{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.btnOrder{
+    padding:20px 230px;
+    background-color:#c73b0f;
+    color:#ffffff;
+    border-radius: 26px;
+    border:0;
+    outline: 0;
+    margin-top: 20px;
+    font-weight: 400;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+@media(max-width:600px) {
+    .btnOrder{
+        padding:20px 100px;
+        background-color:#c73b0f;
+        color:#ffffff;
+        border-radius: 26px;
+        border:0;
+        outline: 0;
+        margin-top: 20px;
+        font-weight: 400;
+        text-wrap: nowrap;
+        cursor: pointer;
+    }
+    
+}
+.modalTop{
+    background-color: #ffffff;
+    border-radius: 4px;
+    width:40%;
+    margin: auto;
+    height:50%;
+    padding:20px;
+}
+
+.imgStyles{
+    height:50px;
+    width:50px;
+    border-radius: 8px;
+}
+
+.confirmStyle{
+    height:28px;
+    width:30px
+}
+
+.orderText{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pText{
+    font-weight: 300;
+}
+
+.modalSub{
+    background-color: #fcf8f6;
+    border-radius: 8px;
+    padding:20px;
+    margin-top: 20px;
+}
+
+.modalOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ede8e8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.modalsOnes{
+    display: flex;
+    gap:10px;
+}
+
+.modalsSub{
+    display:flex;
+    gap:20px;
+    margin-top: 10px;
+}
+
+.modalAmount{
+    color:#c73b0f;
+}
+
+.modalPr{
+    font-weight: 600;
+}

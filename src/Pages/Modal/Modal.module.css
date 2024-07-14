@@ -1,0 +1,41 @@
+.modalStyle {
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    max-height: 550px;
+    padding: 20px;
+    z-index: 101;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%); 
+    overflow-y: auto;
+}
+
+
+@media (min-width: 768px) {
+    .modalStyle {
+        width: 60%;
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .modalStyle {
+        width: 40%;
+        margin-top: 5%;
+    }
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); 
+    z-index: 100;
+}

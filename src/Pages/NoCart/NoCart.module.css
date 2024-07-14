@@ -1,0 +1,20 @@
+.imgCart{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.cartText{
+    font-weight: 500;
+    color:#87635a;
+    margin-top: 10px;
+}
+
+.centerCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}

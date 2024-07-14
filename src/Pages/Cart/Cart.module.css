@@ -1,0 +1,14 @@
+.cartstyle{
+    width:65%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding:20px;
+    height:30%;
+    margin-top: 40px;
+}
+
+.cartNum{
+    font-size: 26px;
+    color:#c73b0f;
+}
+
