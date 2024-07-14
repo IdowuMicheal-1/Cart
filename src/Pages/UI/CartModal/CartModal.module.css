@@ -19,10 +19,13 @@
     border-radius: 26px;
     border:0;
     outline: 0;
+    margin: auto;
     margin-top: 20px;
     font-weight: 400;
     text-wrap: nowrap;
     cursor: pointer;
+    display:flex;
+        justify-content: center;
 }
 
 @media(max-width:600px) {
@@ -33,10 +36,13 @@
         border-radius: 26px;
         border:0;
         outline: 0;
+        margin: auto;
         margin-top: 20px;
         font-weight: 400;
         text-wrap: nowrap;
         cursor: pointer;
+        display:flex;
+        justify-content: center;
     }
     
 }
@@ -49,10 +55,13 @@
         border-radius: 26px;
         border:0;
         outline: 0;
+        margin: auto;
         margin-top: 20px;
         font-weight: 400;
         text-wrap: nowrap;
         cursor: pointer;
+        display:flex;
+        justify-content: center;
     }
     
 }

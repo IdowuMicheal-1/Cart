@@ -102,6 +102,7 @@
 .topmeals{
     display:flex;
     justify-content: space-between;
+    width:100%;
 }
 
 @media(max-width:600px) {
