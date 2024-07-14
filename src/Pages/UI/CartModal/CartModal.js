@@ -27,7 +27,7 @@ const CartModal = (props) => {
                                 <div className={classes.modalsOnes}>
                                     <img src={items.image} className={classes.imgStyles}></img>
                                     <div >
-                                        <h4>Macaron Mix of Five</h4>
+                                        <h4 className={classes.names}>{items.name}</h4>
                                         <div className={classes.modalsSub}>
                                             <p className={classes.modalAmount}>{items.amount}x</p><p>@${Number(items.price).toFixed(2)}</p>
                                         </div>

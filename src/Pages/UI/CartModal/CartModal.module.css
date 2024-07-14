@@ -4,13 +4,16 @@
     align-items: center;
 }
 
+.names{
+    font-weight: 500;
+}
 .priceAmount{
     font-size: 26px;
     font-weight: bolder;
 }
 
 .btnOrder{
-    padding:20px 230px;
+    padding:20px 170px;
     background-color:#c73b0f;
     color:#ffffff;
     border-radius: 26px;
@@ -37,6 +40,24 @@
     }
     
 }
+
+@media(max-width:1024px) {
+    .btnOrder{
+        padding:20px 100px;
+        background-color:#c73b0f;
+        color:#ffffff;
+        border-radius: 26px;
+        border:0;
+        outline: 0;
+        margin-top: 20px;
+        font-weight: 400;
+        text-wrap: nowrap;
+        cursor: pointer;
+    }
+    
+}
+
+
 .modalTop{
     background-color: #ffffff;
     border-radius: 4px;
